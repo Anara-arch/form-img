@@ -1,0 +1,150 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(226, 69, 21);
+    margin: o auto;
+}
+.form::after{
+    position: absolute;
+    top: 378px;
+    left: 130px;
+    content: "";
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.form::before{
+    position: absolute;
+    top: 417px;
+    left: 140px;
+    content: "";
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.div::after {
+    position: absolute;
+    top: 378px;
+    left: 105px;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.div::before {
+    position: absolute;
+    top: 215px;
+    left: 405px;
+    content: "";
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.div2::after {
+    position: absolute;
+    top: 250px;
+    left: -50px;
+    content: "";
+    width: 70px;
+    height: 20px;
+    background-color: rgb(226, 69, 21);
+    border-radius: 30px;
+}
+.div2::before {
+    position: absolute;
+    top: 49px;
+    left: 275px;
+    content: "";
+    width: 70px;
+    height: 20px;
+    background-color: rgb(226, 69, 21);
+    border-radius: 30px;
+}
+
+
+.div1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 320px;
+    border-radius: 30px;
+}
+.div1::after {
+    position: absolute;
+    top: 70px;
+    left: 102px;
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: rgb(116, 158, 158);
+}
+.div1::before {
+    position: absolute;
+    top: 30px;
+    left: 260px;
+    content: "";
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+.form-h1{
+    font-size: 20px;
+}
+.form-h1::before{
+    position: absolute;
+    top: 57px;
+    left: 60px;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: rgb(116, 158, 158);
+}
+.form-h1::after{
+    position: absolute;
+    top: 58px;
+    left: 220px;
+    content: "";
+    width: 20px;
+    height: 2px;
+    background-color: rgb(116, 158, 158);
+}
+
+
+.login{
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+}
+.mail{
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 200px;
+    height: 20px;
+}
+.textarea{
+    border-radius: 10px;
+    margin-top: 5px;
+    width: 200px;
+    height: 60px;
+}
+.btn{
+    border-radius: 30px;
+    margin-top: 15px;
+    width: 207px;
+    height: 30px;
+    background-color: rgb(219, 144, 121);
+    margin-bottom: 30px;
+}
